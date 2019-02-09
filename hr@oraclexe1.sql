@@ -1,1 +1,7 @@
 CREATE PUBLIC SYNONYM emps FOR employees;
+
+DROP PUBLIC SYNONYM emps;
+
+CREATE SYNONYM emps FOR employees;
+
+SELECT * FROM emps;
